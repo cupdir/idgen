@@ -32,11 +32,11 @@ node-idgen的所有计数器唯一标示是基于MYSQL存储的。所以我们�
 	  	PRIMARY KEY (`id`)
 	) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
--- ----------------------------
--- Records of counter
--- ----------------------------
-INSERT INTO `counter` VALUES ('1', 'wanghaiquan', '4', '6');
-INSERT INTO `counter` VALUES ('2', 'sunjianfei', '3', '16');
+	-- ----------------------------
+	-- Records of counter
+	-- ----------------------------
+	INSERT INTO `counter` VALUES ('1', 'wanghaiquan', '4', '6');
+	INSERT INTO `counter` VALUES ('2', 'sunjianfei', '3', '16');
 
 修改配置文件
 
