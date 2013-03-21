@@ -1,9 +1,9 @@
 var config =  {
 	store:{
-		host 		: 	'10.237.39.154',
+		host 		: 	'mysql_ip',
 		port 		: 	3306,
-		user 		: 	'root',
-		password 	: 	'haiquan',
+		user 		: 	'username',
+		password 	: 	'password',
 		database	: 	'xm_idgen',
 		max_life 	: 	9999,
 		debug 		: 	true
